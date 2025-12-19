@@ -1,1 +1,2 @@
 recursive-include src/dconvexhull *
+recursive-include src/dconvexhull/operations *.pyd
