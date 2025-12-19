@@ -24,6 +24,7 @@ You can install the package directly from PyPI (after publishing):
 ```bash
 pip install dconvexhull
 
+```
 
 Or install locally for development:
 
@@ -31,8 +32,9 @@ Or install locally for development:
 git clone https://github.com/yourusername/dconvexhull.git
 cd dconvexhull
 pip install .
+```
 
-
+---
 ## 🚀 USAGE
 
 After installation, you can import and use the package as follows:
@@ -45,16 +47,18 @@ ptc = [[0, 0], [1, 1], [2, 0], [2, 2], [0, 2]]
 
 # Draw convex hull from array input
 convxHull.draw_convxHull_from_arr(ptc)
-
+```
 
 Example 2: Using a CSV fil
 
 ```Python
 from dconvexhull import operations
 operations.compute_convex_hull("points.csv", output="hull_output.pdf")
-
+```
 
 This will generate a PDF file () that shows the convex hull polygon and its vertices.
+
+---
 
 
 ## 📖 Educational Notes
@@ -62,9 +66,11 @@ This will generate a PDF file () that shows the convex hull polygon and its vert
 • 	This package demonstrates how Python can interface with C++ modules for computational geometry.
 • 	Visualization is handled with matplotlib, making results easy to interpret for students and researchers.
 
+---
 ## ⚙️ Dependencies
 - matplotlib (for visualization and PDF export)
 
+---
 ## 🧑‍🏫 Target Audience
 • 	Python learners exploring computational geometry
 • 	Students studying convex hull algorithms
