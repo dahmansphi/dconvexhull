@@ -53,7 +53,7 @@ Example 2: Using a CSV fil
 
 ```Python
 from dconvexhull import operations
-operations.compute_convex_hull("points.csv", output="hull_output.pdf")
+operations.compute_convex_hull("points.csv")
 ```
 
 This will generate a PDF file () that shows the convex hull polygon and its vertices.
