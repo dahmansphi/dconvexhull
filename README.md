@@ -21,8 +21,12 @@ This package wraps a C++ module for efficient computation and offers Python-frie
 
 You can install the package directly from PyPI (after publishing):
 
+The website addres : https://pypi.org/project/dconvexhull/0.1.3/ 
+
+To install: 
+
 ```bash
-pip install dconvexhull
+pip install dconvexhull==0.1.3
 
 ```
 
@@ -32,6 +36,11 @@ Or install locally for development:
 git clone https://github.com/yourusername/dconvexhull.git
 cd dconvexhull
 pip install .
+```
+
+you can review the package information:
+```
+pip show dconvexhull
 ```
 
 ---
